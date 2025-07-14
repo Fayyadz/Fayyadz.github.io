@@ -1,4 +1,3 @@
-// Typing effect for headings
 document.addEventListener('DOMContentLoaded', function() {
     const titles = document.querySelectorAll('.pixel-title, .pixel-section h2');
     
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 100);
     });
     
-    // Glitch effect on hover for portfolio items
     const items = document.querySelectorAll('.pixel-item');
     items.forEach(item => {
         item.addEventListener('mouseover', () => {
